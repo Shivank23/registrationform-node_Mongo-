@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+    {{>navbar}}
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="https://www.google.com/search?q=login+icon+images&rlz=1C1CHBD_enIN911IN911&sxsrf=ALeKk00hWYzwmVkc5va08OORt23e7x7EVQ:1617223851603&tbm=isch&source=iu&ictx=1&fir=LouCbm-LYDaiWM%252CUb--o_GMNtUpRM%252C_&vet=1&usg=AI4_-kQuaDGC3MtinAwfVTprTpx-sb0EJQ&sa=X&ved=2ahUKEwiDosmptNvvAhXrIbcAHT5SCYwQ9QF6BAgLEAE#imgrc=LouCbm-LYDaiWM"
+                    id="icon" alt="User Icon" />
+            </div>
+
+            <!-- Login Form -->
+            <form class="form-signin" action="/login" method="POST">
+                <input type="email" id="login" class="fadeIn second" name="email" placeholder="login">
+                <input type="text" id="password" class="fadeIn third" name="password" placeholder="password">
+                <input type="submit" class="fadeIn fourth" value="Log In">
+            </form>
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="#">Forgot Password?</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
